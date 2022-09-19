@@ -40,10 +40,6 @@ plot_df =
 ggplot(plot_df, aes(x = x, y = y)) + geom_point()
 ```
 
-```{r chunk_histogram}
-ggplot(plot_df, aes(x = x)) + geom_histogram()
-```
-
 ### Plot for Learning Assessment
 This is a quick kind of solution to the Learning Assessment 
 
@@ -60,5 +56,5 @@ ggplot(la_df, aes(x = abs_norm)) + geom_histogram()
 
 Here's a list:
 
-*List item 1
-*List item 2
+* List item 1
+* List item 2
